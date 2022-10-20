@@ -9,6 +9,7 @@
   </body>
   <script>
     const original = window.location.href;
+    console.log(original.split("redirect?")[1];
     window.location.href = original.split("redirect?")[1];
     window.close();
   </script>
