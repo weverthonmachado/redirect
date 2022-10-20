@@ -8,8 +8,8 @@
   Redirecting...
   </body>
   <script>
-    const origial = window.location.href;
-    window.location.href = origial.split("://")[0].substr(1) + "://" + origial.split("://")[1];
+    const original = window.location.href;
+    window.location.href = original.split("redirect?")[1];
     window.close();
   </script>
 </html>
